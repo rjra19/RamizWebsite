@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    
+     }
+/* Create three equal columns that floats next to each other */
+.htag,.htag2,.htag3 {
+float: left;
+/*width: 33.33%;*/
+vertical-align:middle;
+   text-align:center;
+padding: 10px;
+height:800px;
+}
