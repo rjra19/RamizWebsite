@@ -19,9 +19,9 @@ class UI{
         const row = document.createElement('tr');
         
         row.innerHTML = `
-        <td>${vacation.city} </td>
-        <td>${vacation.state} </td>
-        <td>${vacation.country} </td>
+        <td> &nbsp &nbsp${vacation.city} </td>
+        <td> &nbsp &nbsp${vacation.state} </td>
+        <td> &nbsp &nbsp${vacation.country} </td>
         <td><a href="#" class="delete"</a>DELETE</td>
         `;
 

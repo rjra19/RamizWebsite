@@ -5,103 +5,33 @@
 
 }
 
-header{
-    background-color:white;
-    
-    height: 80px;
-    line-height: 100px;
-    margin:0;
-    padding:0;
-    
-}
-ul
-{
-    list-style: none;
-}
-ul li
-{
-    display:inline-block;
-}
-header nav
-{
-   float:right;
-}
-.logo1 img
-{
-    margin-top:10px;
-   max-width: 80%;
-   width:180px;
-   height: 50;
-   
-   
-}
-header nav ul li a
-{
-    padding-right:30px;
-    font-weight: bold;
-    color:black;
-    transition: all 0.5s ease-in;
-}
-header nav ul li ul li{
-    display: none;
-}
-header nav ul li a:hover{
-    text-decoration: none;
-    color:blue;
-}
 .img1{
 
-    background-image: url(..//image/nature1.jpg);
-    background-size:cover;
-    /*width:1380px;
-    height: 600px;*/
-    /*display:block;
-    float:left;*/
-    /*max-width: 100%;
-    max-height: 100%;
-    margin:0;
-    padding:0;
-    max-width: 100% ;
-    height: auto ;
-    background-repeat: no-repeat;
-  */
-  width:100%;
+
+  background-image: url(..//image/pic4.jpg) ;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
 .img2{
 
-    background-image: url(..//image/bridge.jpg);
-    background-size:cover;
-    /*width:1380px;
-    height: 600px;*/
-    /*max-width: 100%;
-    max-height: 100%;
-    margin:0;
-    padding:0;
-    max-width: 100% ;
-    height: auto ;
-    background-repeat: no-repeat;
-    */
-    width:100%;
+  background-image: url(..//image/pic5.jpg) ;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    
 }
 .img3{
-
-    background-image: url(..//image/m1.jpg);
-    background-size:cover;
-    /*width:1380px;
-    height: 600px;*/
-    /*max-width: 100%;
-    max-height: 100%;
-    margin:0;
-    padding:0;
-    max-width: 100% ;
-    height: auto ;
-    background-repeat: no-repeat;
-   */
-   width:100%;
-  height: 100%;
+   
+   background-image: url(..//image/pic6.jpg) ;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .color{
     text-align: center;
@@ -112,3 +42,49 @@ header nav ul li a:hover{
 .slide{
     height: 100%;
 }
+
+.container{
+    /*width:80%;*/
+    /*margin: auto;*/
+    overflow: hidden;
+}
+
+#navbar{
+    padding-top:25px;
+    background-color:white;
+    color:black;
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    padding-top:30px;
+    padding-right:15px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.logo1 img
+{
+   margin-top:10px;
+   max-width: 80%;
+   width:180px;
+   height: 50;
+   padding: 10px;
+   
+   
+}
+#navbar a{
+    transition: all 0.5s ease-in;
+}
+#navbar a:hover{
+    color:blue;
+}
+
+

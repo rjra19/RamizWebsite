@@ -11,3 +11,5 @@ tl.fromTo(hero,1,{height:"0%"},{height:"80%",ease: Power2.easeInOut})
 fromTo(text,0.5,{opacity:0,X:100},{opacity:1,x:0},"-=0.5");
 
 
+
+

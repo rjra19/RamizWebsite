@@ -11,6 +11,21 @@
     transform: translate(-20%,-70%);
     color:white;
     z-index: 3;
+
+    
+ /*       color: #402d2d;
+        padding: 40px 0;
+        font-weight: 800;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        overflow: hidden;
+    
+}
+.text .letter {
+    display: inline-block;
+    line-height: 1em;
+  }*/
 }
 .slider{
     position: absolute;
